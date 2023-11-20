@@ -69,7 +69,7 @@ const char  SPRITESHEET_FILEPATH[]  = "assets/images/him.png",
 
 
 
-const char  BGM_FILEPATH[]          = "assets/audio/theme.mp3";
+const char  BGM_FILEPATH[]          = "assets/audio/barriers.mp3";
 const int   LOOP_FOREVER     = -1;  // -1 means loop forever in Mix_PlayMusic; 0 means play once and loop zero times
 
 const int NUMBER_OF_TEXTURES = 1;
