@@ -247,7 +247,7 @@ void const Entity::check_collision_y(Entity* collidable_entities, int collidable
                 //player on top
                 if(collidable_entity->m_entity_type ==ENEMY)
                 {
-                    std::cout << "Player ON TOP OF Enemy" << std::endl;
+//                    std::cout << "Player ON TOP OF Enemy" << std::endl;
                     collidable_entity->deactivate();
                 }
                 else{
@@ -255,7 +255,7 @@ void const Entity::check_collision_y(Entity* collidable_entities, int collidable
                 }
                 //enemy on top
                 if(collidable_entity->m_entity_type ==PLAYER){
-                    std::cout << "Enemy ON TOP OF Player" << std::endl;
+//                    std::cout << "Enemy ON TOP OF Player" << std::endl;
                     collidable_entity->deactivate();
                 }
             }
@@ -279,7 +279,7 @@ void const Entity::check_collision_x(Entity* collidable_entities, int collidable
                 m_collided_right = true;
                 //enemy right touched him
                 if (collidable_entity->m_entity_type == PLAYER){
-                    std::cout << "enemy right touched him" << std::endl;
+//                    std::cout << "enemy right touched him" << std::endl;
                     collidable_entity->deactivate();
                 }
             }
@@ -289,7 +289,7 @@ void const Entity::check_collision_x(Entity* collidable_entities, int collidable
                 m_collided_left = true;
                 //enemy left touched him
                 if (collidable_entity->m_entity_type == PLAYER){
-                    std::cout << "enemy left touched him" << std::endl;
+//                    std::cout << "enemy left touched him" << std::endl;
                     collidable_entity->deactivate();
                 }
             }

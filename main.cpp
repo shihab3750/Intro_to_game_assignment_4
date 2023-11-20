@@ -407,7 +407,7 @@ void update()
         delta_time -= FIXED_TIMESTEP;
     }
     g_time_accumulator = delta_time;
-    std::cout<<g_game_state.player->get_position().x<<g_game_state.player->get_position().y<<std::endl;
+//    std::cout<<g_game_state.player->get_position().x<<g_game_state.player->get_position().y<<std::endl;
 }
 
 void render()
